@@ -5,7 +5,7 @@ def selection_sort( arr ):
         cur_index = i
         smallest_index = cur_index
 
-        for j in range(i+1, len(arr)): #have to iterate through the array (looping through elements ono right hand side of current index)
+        for j in range(i+1, len(arr)): #have to iterate through the array (looping through elements onto right hand side of current index)
             if arr[j] < arr[smallest_index]: #if current position is less than the smallest index
                 smallest_index = j #smallest index is the current position
 
